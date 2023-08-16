@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #282c34;
-  min-height: 100vh;
+  color: #fff;
+ }
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.maininput
+{
+background: #8f66e8;
+color:#fff;
+margin: 50px;
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.inputs
+{
+  position: relative;
+  right: -50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+input {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  
+}
+.submitbutton
+{
+  display:flex;
+}
+
+
+button {
+  background-color: #2b0c60;
   color: white;
+   padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.tablemain
+{
+  background: #8f66e8;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th, td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
+
+.delete-button {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-tracker {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
